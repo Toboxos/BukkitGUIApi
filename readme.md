@@ -60,10 +60,10 @@ gui.setCloseCallback(null);
 ### Open GUI:
 ``` JAVA
 // If extraInventory is false the Players Hotbar is the GUI
-manager.openGUI(String id, Player p, boolean extraInventory); 
+manager.openGUI(Player p, String id, boolean extraInventory); 
 
 // If the Players Hotbar is a GUI you can use this to open a SubGUI in an extra Inventory
-manager.openSubGUI(String id, Player p);
+manager.openSubGUI(Player p, String id);
 ```
 
 ### Close GUI:
