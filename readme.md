@@ -1,11 +1,12 @@
 <h1>
-    Author: Toboxos 
+    Author: Toboxos<br>
     Version: 1.0
 </h1>
 #
 #
 ## How to Use:
 #### *Copy the Source Files into your Project*
+####
 
 
 ### Create Manager:
