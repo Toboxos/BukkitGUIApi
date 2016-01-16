@@ -1,7 +1,6 @@
-<h1>
-    Author: Toboxos<br>
-    Version: 1.0
-</h1>
+Author: Toboxos
+Version: 1.0
+=======================
 #
 #
 ## How to Use:
