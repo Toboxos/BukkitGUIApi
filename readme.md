@@ -90,7 +90,7 @@ manager.forceClose(Player p);
         public void run(Player p, ClickType type) {
             if( type == ClickType.LEFT ) p.sendMessage("Leftclick");
             if( type == ClickType.RIGHT ) p.sendMessage("Rightclick");
-            manager.openSubGUI("gadgets", p);
+            manager.openSubGUI(p, "gadgets");
         }
     });
     
@@ -111,5 +111,5 @@ manager.forceClose(Player p);
     });
     
     // At PlayerJoinEvent
-    manager.openGUI("lobby", e.getPlayer(), false);
+    manager.openGUI(e.getPlayer(), "gadgets", false);
 ```
