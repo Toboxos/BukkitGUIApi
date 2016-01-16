@@ -1,6 +1,5 @@
-Author: Toboxos
-Version: 1.0
-=======================
+#Author: Toboxos
+#Version: 1.0
 #
 #
 ## How to Use:
@@ -112,5 +111,5 @@ manager.forceClose(Player p);
     });
     
     // At PlayerJoinEvent
-    manager.openGUI("lobby", e.getPlayer(), false");
+    manager.openGUI("lobby", e.getPlayer(), false);
 ```
